@@ -2,7 +2,6 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkDown = require("./utils/generateMarkdown");
-
 // const choices = require("inquirer/lib/objects/choices");
 
 // TODO: Create an array of questions for user input
@@ -18,9 +17,9 @@ const questions = [
         message: "What is the description of your project?",
     },
     {
-        name: 'Table of Contents',
+        name: 'Instructions',
         type: "input",
-        message: "Pls provide table of Content?",
+        message: "Please provide instructions on how to use this project",
     },
     {
         name: 'Installation',
@@ -44,7 +43,7 @@ const questions = [
         message: "Who contributed on this project?",
     },
 
-]
+];
 // .then((responses) => {
 //     console.log(responses)
 // });
@@ -57,7 +56,8 @@ function writeTofile(fileName, data) {
 }
 
 function init() {
-    inquirer.prompt(questions).then((responses) => {
+    inquirer.prompt(questions)
+    .then((responses) => {
         writeTofile("README.md", responses);
     });
 }
