@@ -34,14 +34,14 @@ const questions = [
     {
         name: 'Technologies',
         type: "checkbox",
-        message:"What technologies did you use for your project",
-        choices: ["HTML",   "CSS",   "JavaScript",   "JQuery",   "Bootstrap",   "Node.js"] 
+        message: "What technologies did you use for your project",
+        choices: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Node.js"]
     },
     {
         name: 'License',
         type: "list",
         message: "What liscense did you use?",
-        choices: ["MIT", "ISC", "IBM","BSD-3"],
+        choices: ["MIT", "ISC", "IBM", "BSD-3"],
     },
     {
         name: 'Contributions',
@@ -72,15 +72,15 @@ const questions = [
 ];
 
 function writeTofile(fileName, data) {
-    fs.writeFile(fileName, generateMarkDown(data), (err) => err ? console.log(err):console.log("SUCCESS!"))
-      
+    fs.writeFile(fileName, generateMarkDown(data), (err) => err ? console.log(err) : console.log("SUCCESS!"))
+
 }
 
 function init() {
     inquirer.prompt(questions)
-    .then((responses) => {
-        writeTofile("README.md", responses);
-    });
+        .then((responses) => {
+            writeTofile("README2.md", responses);
+        });
 }
 
 init();
