@@ -32,26 +32,48 @@ const questions = [
         message: "how do we use your project?",
     },
     {
-        name: 'License',
+        name: 'Technologies',
         type: "checkbox",
+        message:"What technologies did you use for your project",
+        choices: ["HTML", "CSS","JavaScript","JQuery","Bootstrap","Node.js"] 
+    },
+    {
+        name: 'License',
+        type: "list",
         message: "What liscense did you use?",
-        choices: ["MIT", "ISC", "IBM", "GNU", "BSD"],
+        choices: ["MIT", "ISC", "IBM","BSD-3"],
     },
     {
         name: 'Contributions',
         type: "input",
         message: "Who contributed on this project?",
     },
+    {
+        name: 'Tests',
+        type: "input",
+        message: "Have you tested your project?",
+    },
+    {
+        name: 'Github',
+        type: "input",
+        message: "Link to your github",
+    },
+    {
+        name: 'Email',
+        type: "input",
+        message: "Link to your Email",
+    },
+    {
+        name: 'LinkedIn',
+        type: "input",
+        message: "Link to your LinkdedIn",
+    },
 
 ];
-// .then((responses) => {
-//     console.log(responses)
-// });
 
 function writeTofile(fileName, data) {
     fs.writeFile(fileName, generateMarkDown(data), (err) =>
         console.log(err)
-
     )
 }
 
