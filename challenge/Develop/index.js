@@ -72,9 +72,9 @@ const questions = [
 ];
 
 function writeTofile(fileName, data) {
-    fs.writeFile(fileName, generateMarkDown(data), (err) =>
+    fs.writeFile(fileName, generateMarkDown(data), (err) => err ? console.log(err):console.log("SUCCESS!"))
         console.log(err)
-    )
+    
 }
 
 function init() {

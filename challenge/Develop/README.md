@@ -9,22 +9,23 @@
   - [Usage](#Usage)
   - [License](#License)
   - [Contributions](#Contributions)
+  - [Github] (#)
  
- ## Description
-    Kitty
+## Description
+Kitty
 
- ## Instructions
-    Pet her
+## Instructions
+Pet her
 
- ## Installation
-    Cuddle
+## Installation
+Give her food
 
- ## Usage
-    Cuddle
+## Usage
+pet her
 
 ## License
-    MIT
+MIT
 
-    ## Contributions
-    Zula 
-    
+## Contributions
+Zula did
+ 
