@@ -35,7 +35,7 @@ const questions = [
         name: 'Technologies',
         type: "checkbox",
         message:"What technologies did you use for your project",
-        choices: ["HTML", "CSS","JavaScript","JQuery","Bootstrap","Node.js"] 
+        choices: ["HTML",   "CSS",   "JavaScript",   "JQuery",   "Bootstrap",   "Node.js"] 
     },
     {
         name: 'License',
@@ -66,15 +66,14 @@ const questions = [
     {
         name: 'LinkedIn',
         type: "input",
-        message: "Link to your LinkdedIn",
+        message: "Link to your LinkedIn",
     },
 
 ];
 
 function writeTofile(fileName, data) {
     fs.writeFile(fileName, generateMarkDown(data), (err) => err ? console.log(err):console.log("SUCCESS!"))
-        console.log(err)
-    
+      
 }
 
 function init() {
