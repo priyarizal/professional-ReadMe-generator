@@ -18,10 +18,10 @@
 kitty
 
 ## Instructions
-lots of pets
+pet her
 
 ## Installation
-via treats
+treats
 
 ## Usage
 pet her
@@ -39,7 +39,7 @@ zula did
 www.github.com
 
 ## Email
-priya.rizal2@gmail.com
+priya,rizal2@gmail.com
 
 ## LinkedIn
 url

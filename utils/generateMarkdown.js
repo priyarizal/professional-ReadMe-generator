@@ -4,7 +4,7 @@
 function renderLicenseBadge(license) {
   let licensePicked = ''
 
-  if (license === 'MIT') {
+  if (license === 'MIT') { 
     licensePicked = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
 
@@ -60,9 +60,6 @@ ${data.Installation}
 ## Usage
 ${data.Usage}
 
-## License
-${data.License}
-
 ## Technologies
 ${data.Technologies}
 
@@ -77,6 +74,9 @@ ${data.Email}
 
 ## LinkedIn
 ${data.LinkedIn}
+
+## License
+${data.License}
 
 `;
 }
