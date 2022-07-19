@@ -41,7 +41,7 @@ const questions = [
         name: 'License',
         type: "list",
         message: "What liscense did you use?",
-        choices: ["MIT", "ISC", "IBM", "BSD-3"],
+        choices: ["MIT", "ISC", "IBM", "BSD-3", 'none'],
     },
     {
         name: 'Contributions',
