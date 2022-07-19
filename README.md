@@ -17,9 +17,8 @@ node index.js
 - NPM
 
 
-
 ## Gif walkthrough
-![gif of generating readme through command line](./assets/readme.generator.gif)
+![gif of generating readme through command line](./develop/assets/readme%20generator.gif)
 
 ## License
 MIT
