@@ -19,7 +19,7 @@ node index.js
 
 
 ## Gif walkthrough
-![alt text]()
+![gif of generating readme through command line](./assets/readme.generator.gif)
 
 ## License
 MIT
